@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 99%;
+}
+
+body{
+  background-image: url("clear.jpg");
+  height: 100vh;
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.profile i{
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  margin-top: 2px;
+}
+
+.profile{
+  text-align: center;
+}
+
+.main{
+  width: 50vh;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  opacity: 100%;
+  background-color: rgba(240, 248, 255, 0.6);
+  height: 73vh;
+  border-radius: 8px;
+}
+
+button{
+  font-size: 2rem;
+  margin-left: 4px;
+  border-radius: 50%;
+  background-color: rgba(240, 248, 255, 0.1);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.sticker{
+  margin-top: 2px;
+}
+
+.search-box{
+  display: flex;
+  border-radius: 18px;
+}
+
+.input-box{
+  width: 90%;
+  height: auto;
+  border-radius: 18px;
+  font-size: 1.25rem;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  outline: none;
+}
+
+.main .input-box:focus{
+  background-color: rgba(255, 255, 255);
+}
+
+.city{
+  font-size: 1.3rem;
+}
+
+.details{
+  padding: 15px;
+  margin-top: 25px;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+}
+
+.weather-status{
+  padding: 40px;
+  line-height: 2.5rem;
+}
+
+.temp{
+  font-size: 2rem;
+  font-weight: 1100;
+}
+
+
+
+@media(max-width:991px) {
+  html{
+    font-size: 185%;
+  }
+
+  .main{
+    margin: 170px auto;
+    padding: 0 -70px;
+    height: 68vh;
+  }
+
+  .main .weather-status img{
+    height: 110px;
+  }
+
+  .input-box{
+    height: 95px;
+    border-radius: 60px;
+  }
+
+  .details{
+    margin: 70px 20px;
+    border-radius: 20px;
+  }
+
+  .location-details{
+    margin-top: 20px;
+  }
+
+  .city{
+    margin-top: 10px;
+    font-size: 1.6rem;
+  }
+
+  .date{
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+  .temp{
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+
+  .min-max{
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+  .weather{
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+}

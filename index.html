@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="feather.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a211e5926b.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <div class="profile">
+      <a href="https://batsal26.github.io/Batsal/"><i class="far fa-user fa-2x"></i></a>
+
+    </div>
+
+
+    <div class="main">
+      <div class="search-box">
+        <input type="text" class="input-box" id="input-box" placeholder="Enter City Name" autocomplete="off">
+        <button id="search-button" class="search-button"><i class="fas fa-search"></i></button>
+      </div>
+
+      <div class="details">
+        <div class="location-details">
+          <div id="city" class="city">City</div>
+          <div id="date" class="date">Date</div>
+        </div>
+
+        <div class="weather-status">
+          <div class="temp" id="temp">&degC</div>
+          <div class="min-max" id="min-max">&degC (min)/ &degC (max)</div>
+          <div class="weather" id="weather">Clear</div>
+          <div class="sticker" id="icon"><img src="feather.png" alt=""></div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
